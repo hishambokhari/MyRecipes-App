@@ -3,13 +3,11 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
-require('bootstrap')
-
-require('../stylesheets/custom.css.scss')
+//= require jquery_ujs
+//= require jquery
+//= require bootstrap-sprockets
+//= require turbolinks
+//= require_tree .
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -18,3 +16,4 @@ require('../stylesheets/custom.css.scss')
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
