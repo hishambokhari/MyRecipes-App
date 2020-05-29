@@ -1,10 +1,12 @@
 # README
 
 # Plan:
+
   - Create a recipes app.
 
 
 # Layout of the application:
+
   - Re-factor the code. (Clean code)
   - Look at sample layouts for homepage, and come up with a homepage design.
   - Create a mockup!
@@ -33,4 +35,5 @@
   - Email address should be valid format
   - Email should be unique, case insensitive
 
-
+  # Routes:
+  - 
