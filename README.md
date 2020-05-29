@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Plan:
+  - Create a recipes app.
 
-Things you may want to cover:
 
-* Ruby version
+# Layout of the application:
+  - Re-factor the code. (Clean code)
+  - Look at sample layouts for homepage, and come up with a homepage design.
+  - Create a mockup!
 
-* System dependencies
+# Database and 1:m associations
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - Relational Databases
+  - SQL - Structured Query Language
+  - ActiveRecord : Abstraction from actual SQL code
+  - Database layer and Associations
