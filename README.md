@@ -15,3 +15,4 @@
   - SQL - Structured Query Language
   - ActiveRecord : Abstraction from actual SQL code
   - Database layer and Associations
+  - Virtual Attributes
