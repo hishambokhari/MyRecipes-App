@@ -4,5 +4,6 @@ class Chef < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i# checks validity of formats
   validates :email, presence: true, length: { maximum: 255 },
                     format: { with: VALID_EMAIL_REGEX},
-                    uniquness: { case_sensitive: false}
+                    uniqueness: { case_sensitive: false}
+  has_many :recipes
 end
