@@ -35,5 +35,12 @@
   - Email address should be valid format
   - Email should be unique, case insensitive
 
-  # Routes:
-  - 
+  # CHEFS
+  - Chefs have chefname, email
+  - Chefs have one to many associations with recipes
+  - Chefs can be created from the console
+  - Ability to sign-up chefs, so chefs can sign up to use the application
+  - Show their profile page
+  - A way to log in and log out, so chefs can track items they do when using the app, like creating recipes
+  - Restrictions for the apps features, for eample only logged in chefs can create recipes
+  - An admin feature so chefs can monitor the app, the admin will have more rights than other users...
