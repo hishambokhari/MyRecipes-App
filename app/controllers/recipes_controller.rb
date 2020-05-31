@@ -6,7 +6,7 @@ class RecipesController < ApplicationController
   end
 
   def show 
-    
+
   end
 
   def new
@@ -43,6 +43,21 @@ class RecipesController < ApplicationController
     @recipe.destroy
     flash[:success] = "Recipe deleted successfully"
     redirect_to recipes_path
+  end
+
+  def find
+    @recipe = Recipe.new
+  end
+
+  def find_name
+    @recipe = Recipe.find_by_name(params[:name])
+    @recipe.chef = Chef.first
+    if @recipe.save
+      flash[:success] = 'Recipe found'
+      redirect_to recipe_path(@recipe)
+    else
+      render 'new'
+    end
   end
 
   private
