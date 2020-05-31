@@ -44,3 +44,9 @@
   - A way to log in and log out, so chefs can track items they do when using the app, like creating recipes
   - Restrictions for the apps features, for eample only logged in chefs can create recipes
   - An admin feature so chefs can monitor the app, the admin will have more rights than other users...
+
+# Sessions and Authentication
+
+  - sessions controller
+  - routes
+  - Not a model backed resource!
