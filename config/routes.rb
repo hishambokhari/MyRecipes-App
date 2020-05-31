@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :recipes do
     collection do
       get :find
-      
+      post :findby_name
     end
   end
     

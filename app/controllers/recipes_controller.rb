@@ -46,19 +46,19 @@ class RecipesController < ApplicationController
   end
 
   def find
-    @recipe = Recipe.new
+    @recipe = Recipe.find_by(params[:id])
   end
 
-  def find_name
-    @recipe = Recipe.find_by_name(params[:name])
-    @recipe.chef = Chef.first
-    if @recipe.save
-      flash[:success] = 'Recipe found'
+  def findby_name
+    @recipe = Recipe.find_by(params[:id])
+    if @recipe.findby_name(@recipe)
+      flash[:success] = "Your recipe was found"
       redirect_to recipe_path(@recipe)
     else
-      render 'new'
+      render 'find'
     end
   end
+
 
   private
 
