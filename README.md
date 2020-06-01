@@ -50,3 +50,9 @@
   - sessions controller
   - routes
   - Not a model backed resource!
+
+  # Admin User Functionality
+
+    - Add an admin attribute, if true then the user is an admin. The default will be false
+    - We'll update our views and controllers based on this
+    - Admin will have full access - editing other chefs recipes, updating chef info, deleting other chefs
