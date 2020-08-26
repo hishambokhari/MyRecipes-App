@@ -11,6 +11,17 @@
   - Look at sample layouts for homepage, and come up with a homepage design.
   - Create a mockup!
 
+# Test Driven Development
+
+## Recipe -
+  - name should be present
+  - description should be present
+  - chef_id should be present 
+  - maximum length for name and description, maybe a minimum for description
+
+## Chef -
+
+
 # Database and 1:m associations
 
   - Relational Databases
