@@ -20,7 +20,11 @@
   - maximum length for name and description, maybe a minimum for description
 
 ## Chef -
-
+  - chefname should be present
+  - email should be present
+  - size restrictions on email and chefname
+  - reject invalid email addresses
+  - email should be unique, case insensitive
 
 # Database and 1:m associations
 
