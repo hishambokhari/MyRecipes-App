@@ -47,21 +47,6 @@ class RecipesController < ApplicationController
     redirect_to recipes_path
   end
 
-  def find
-    @recipe = Recipe.find_by(params[:id])
-  end
-
-  def findby_name
-    @recipe = Recipe.find_by(params[:id])
-    if @recipe.findby_name(@recipe)
-      flash[:success] = "Your recipe was found"
-      redirect_to recipe_path(@recipe)
-    else
-      render 'find'
-    end
-  end
-
-
   private
 
   def set_recipe
