@@ -9,7 +9,7 @@
     - Give back by allowing users to list thier own delicious recipes for others to use.
 
 ### Have a quick look at our video here: https://www.youtube.com/watch?v=i2i9QoiW1uo
-### Trello Board: https://trello.com/b/kTwmUbp5/quaraneat
+- Trello Board: https://trello.com/b/kTwmUbp5/quaraneat
 
 # Plan:
 
