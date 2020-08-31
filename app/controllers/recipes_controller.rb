@@ -27,7 +27,7 @@ class RecipesController < ApplicationController
   end
 
   def edit
-
+ 
   end
 
   def update
@@ -54,7 +54,7 @@ class RecipesController < ApplicationController
   end
 
   def recipe_params
-    params.require(:recipe).permit(:name, :description)
+    params.require(:recipe).permit(:name, :description) # prevents SQL injection
   end
 
   def require_same_user
