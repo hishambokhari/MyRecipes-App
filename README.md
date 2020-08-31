@@ -3,10 +3,12 @@
 # Project Outline:
   
   As the coronavirus pandemic spreads through the world and the practice of social distancing remains in place to slow the spread of the disease, millions around the globe are spending a lot more time in their homes than they used to. With shelter-in-place orders in many regions, work-from-home directives from many employers, and many public spaces such as theatres, museums, and resturants all shut down, people are turning to cooking while self-quarantined not just for sustenance but for comfort and entertainment, too.
-  
+
   MyRecipes is a web-based solution with a mission to help its users save time and effort around their seemingly favourite activity. It enables individuals to: 
     - Save time and effort by providing easy access to hundreds of recipes that are tried, tested and reviewed within the local community.
     - Give back by allowing users to list thier own delicious recipes for others to use.
+
+### Have a quick look at our video!! https://www.youtube.com/watch?v=i2i9QoiW1uo
 
 # Plan:
 
