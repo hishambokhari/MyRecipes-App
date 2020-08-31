@@ -8,7 +8,7 @@
     - Save time and effort by providing easy access to hundreds of recipes that are tried, tested and reviewed within the local community.
     - Give back by allowing users to list thier own delicious recipes for others to use.
 
-### Have a quick look at our video!! https://www.youtube.com/watch?v=i2i9QoiW1uo
+### Have a quick look at our video here: https://www.youtube.com/watch?v=i2i9QoiW1uo
 
 # Plan:
 
